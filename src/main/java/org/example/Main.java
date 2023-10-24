@@ -10,6 +10,8 @@ public class Main {
         Scanner scan = new Scanner(System.in);
         int op, flag = 0;
         double num1, num2;
+        logger.info("Start of Execution");
+
         System.out.println("------------Calculator--------------");
 		do{
 			System.out.println("Choices of Operations:");
@@ -69,6 +71,7 @@ public class Main {
 
     public static double Addition(double n1, double n2)
     {
+        logger.info("START OP: Add");
         double res = n1 + n2;
         System.out.println("");
         System.out.println("Result is: " + res);
@@ -76,12 +79,15 @@ public class Main {
         
         logger.info("[ADDITION OPERATION] [SUCCESS] " + n1 + "+" + n2);
         logger.info("[ADDITION OPERATION] [RESULT] " + res);
-
+        
+        logger.info("END OP: Add");
         return res;
     }
 
     public static double Subtraction(double n1, double n2)
     {
+        logger.info("START OP: Sub");
+
         double res = n1 - n2;
         System.out.println("");
         System.out.println("Result is: " + res);
@@ -90,11 +96,14 @@ public class Main {
         logger.info("[SUBTRACTION OPERATION] [SUCCESS] " + n1 + "-" + n2);
         logger.info("[SUBTRACTION OPERATION] [RESULT] " + res);
 
+        logger.info("END OP: Sub");
         return res;
     }
 
     public static double Multiplication(double n1, double n2)
     {
+        logger.info("START OP: Mult");
+
         double res = n1 * n2;
         System.out.println("");
         System.out.println("Result is: " + res);
@@ -103,11 +112,14 @@ public class Main {
         logger.info("[MULTIPLICATION OPERATION] [SUCCESS] " + n1 + "*" + n2);
         logger.info("[MULTIPLICATION OPERATION] [RESULT] " + res);
 
+        logger.info("END OP: Mult");
         return res;
     }
 
     public static double Division(double n1, double n2)
     {
+        logger.info("START OP: Div");
+
         double res = n1 / n2;
         System.out.println("");
         System.out.println("Result is: " + res);
@@ -116,6 +128,7 @@ public class Main {
         logger.info("[DIVISION OPERATION] [SUCCESS] " + n1 + "/" + n2);
         logger.info("[DIVISION OPERATION] [RESULT] " + res);
 
+        logger.info("END OP: Div");
         return res;
     }
 }
