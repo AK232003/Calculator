@@ -59,7 +59,7 @@ public class CalculatorTest {
     public void test_mult_negative() 
     {
         double a = 2, b = 3;
-        double expec_res = 0;
+        double expec_res = 1;
         double res = calculator.Multiplication(a, b);
         Assert.assertNotEquals(expec_res, res);
     }
