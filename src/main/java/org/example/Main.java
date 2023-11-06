@@ -62,7 +62,12 @@ public class Main {
                         num1 = scan.nextDouble();
                         System.out.print("Enter Operand 2: ");
                         num2 = scan.nextDouble();
-                        Division(num1, num2);   
+                        if(num2 - 0 <= 0.000000001) 
+                        {
+                            logger.info("Division by 0 not allowed!!");
+                            System.out.println("Division by 0 not allowed!!");
+                        }
+                        else Division(num1, num2);   
                     break;
                 }
             }
