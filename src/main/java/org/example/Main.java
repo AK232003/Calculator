@@ -64,8 +64,13 @@ public class Main {
                         num2 = scan.nextDouble();
                         if(num2 - 0 <= 0.000000001) 
                         {
-                            logger.info("Division by 0 not allowed!!");
+                            logger.info("START OP: Div");
+                            logger.error("[DIVISION OPERATION] [FAIL] " + num1 + "/" + num2);
+                            logger.error("Division by 0 not allowed!!");
+                            System.out.println();
                             System.out.println("Division by 0 not allowed!!");
+                            System.out.println();
+                            logger.info("END OP: Div");
                         }
                         else Division(num1, num2);   
                     break;

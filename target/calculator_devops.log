@@ -1,0 +1,9 @@
+2023-11-06 11:03:34.299 [main] INFO  org.example.Main - Start of Execution
+2023-11-06 11:03:37.417 [main] INFO  org.example.Main - START OP: Div
+2023-11-06 11:03:37.420 [main] INFO  org.example.Main - [DIVISION OPERATION] [SUCCESS] 1.0/2.0
+2023-11-06 11:03:37.421 [main] INFO  org.example.Main - [DIVISION OPERATION] [RESULT] 0.5
+2023-11-06 11:03:37.421 [main] INFO  org.example.Main - END OP: Div
+2023-11-06 11:03:43.197 [main] INFO  org.example.Main - START OP: Div
+2023-11-06 11:03:43.197 [main] ERROR org.example.Main - [DIVISION OPERATION] [FAIL] 1.0/0.0
+2023-11-06 11:03:43.198 [main] ERROR org.example.Main - Division by 0 not allowed!!
+2023-11-06 11:03:43.198 [main] INFO  org.example.Main - END OP: Div
